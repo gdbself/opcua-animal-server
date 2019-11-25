@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(opcua-anmal-server)
 
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -static" CACHE STRING "Set C Compiler Flags" FORCE)
+
 set(UA_NAMESPACE_ZERO FULL CACHE STRING "" FORCE)
 set(open62541_TOOLS_DIR "${CMAKE_SOURCE_DIR}/open62541/tools")
 set(open62541_NODESET_DIR "${CMAKE_SOURCE_DIR}/open62541/deps/ua-nodeset")
