@@ -1,5 +1,8 @@
 # 构建opc_ua_server_animal的docker镜像
 
+## 生成可执行文件
+按照![opc_ua_server_animal](../README.md)的步骤生成opc_ua_server_animal，并复制到当前目录
+
 ## 生成镜像
 ```
 docker build -t opc_ua_server_animal .
