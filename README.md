@@ -41,3 +41,10 @@ The Endpoint URL is printed in the terminal, but should be the default: `opc.tcp
 
 ## Docker build and Run
 [Docker](docker/README.md)
+
+从[opcua-animal-server](https://github.com/Pro/opcua-animal-server)Fork的，修改了一下内容：
+- 使用静态编译生成最终的二进制文件
+- 添加了dockerfile
+
+更多IoT技术分享，请关注[源码先生](https://www.debugself.com)
+![](https://raw.githubusercontent.com/gdbself/gdbself_pic/master/wx.jpg)
